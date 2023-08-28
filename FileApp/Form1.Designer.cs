@@ -35,6 +35,7 @@
             panel1 = new DoublePanel();
             clearButton = new Button();
             colorButton = new Button();
+            animationButton = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -101,11 +102,22 @@
             colorButton.UseVisualStyleBackColor = false;
             colorButton.Click += colorButton_Click;
             // 
+            // animationButton
+            // 
+            animationButton.Location = new Point(93, 422);
+            animationButton.Name = "animationButton";
+            animationButton.Size = new Size(75, 23);
+            animationButton.TabIndex = 4;
+            animationButton.Text = "REPLAY";
+            animationButton.UseVisualStyleBackColor = true;
+            animationButton.Click += animationButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(animationButton);
             Controls.Add(colorButton);
             Controls.Add(clearButton);
             Controls.Add(panel1);
@@ -128,5 +140,6 @@
         private FileApp.DoublePanel panel1;
         private Button clearButton;
         private Button colorButton;
+        private Button animationButton;
     }
 }

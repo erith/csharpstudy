@@ -6,7 +6,7 @@ namespace FileApp
     /// <summary>
     /// 색상과 점들의 모임(선의 위치)가 저장되는 클래스
     /// </summary>
-    internal class OzLine
+    internal class OzLine : ICloneable
     {
         /// <summary>
         /// Point
@@ -21,6 +21,11 @@ namespace FileApp
         [JsonPropertyName(nameof(Color))]
         [JsonConverter(typeof(ColorHexConverter))]
         public Color Color { get; set; }
+
+        public object Clone()
+        {
+            return this.Clone();
+        }
     }
 
     #region ColorHex Converter구현

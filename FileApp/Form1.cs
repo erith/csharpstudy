@@ -151,6 +151,24 @@ namespace FileApp
                 }
             }
         }
+
+
+        private async void animationButton_Click(object sender, EventArgs e)
+        {
+            var targetPoints = new List<OzLine>(points);
+            points.Clear();
+            foreach (var tp in targetPoints)
+            {
+                var lines = new OzLine() { Color = tp.Color, Points = new List<Point>() };
+                points.Add(lines);
+                foreach (var pt in tp.Points)
+                {
+                    await Task.Delay(100);
+                    lines.Points.Add(pt);
+                    panel1.Invalidate();
+                }
+            }
+        }
     }
 
 
