@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{1B8F6A49-D589-4D02-9EAF-0F66AB0B4F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp", "DelegateApp\DelegateApp.csproj", "{858E7346-39DD-4794-848E-0B1CA9D75C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateApp", "DelegateApp\DelegateApp.csproj", "{858E7346-39DD-4794-848E-0B1CA9D75C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp", "EventApp\EventApp.csproj", "{F61C5B70-6DC8-4372-A668-BD855302F7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventApp", "EventApp\EventApp.csproj", "{F61C5B70-6DC8-4372-A668-BD855302F7CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAppWinformApp", "EventAppWinformApp\EventAppWinformApp.csproj", "{EEF8334F-7138-4680-887B-AA9F5ED99EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileApp", "FileApp\FileApp.csproj", "{F7A49116-8975-474E-A25A-25952A71FFBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{EEF8334F-7138-4680-887B-AA9F5ED99EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEF8334F-7138-4680-887B-AA9F5ED99EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEF8334F-7138-4680-887B-AA9F5ED99EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A49116-8975-474E-A25A-25952A71FFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A49116-8975-474E-A25A-25952A71FFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A49116-8975-474E-A25A-25952A71FFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A49116-8975-474E-A25A-25952A71FFBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
